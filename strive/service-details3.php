@@ -53,34 +53,15 @@
      <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">Topografi</a></li>
-          <li><a href="#services">Batas Wilayah</a></li>
-          <li><a href="#portfolio">Pertumbuhan Penduduk</a></li>
-          <li><a href="#pricing">Kontak</a></li>
-          <li><a href="blog.html">Admin</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#services">Profil</a></li>
+          <li><a href="#portfolio">Portofolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="#about">Get Started</a>
+      <a class="cta-btn" href="#about">Admin</a>
 
     </div>
   </header>
@@ -93,12 +74,9 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1 class="heading-title">Service Details</h1>
+              <h1 class="heading-title">Potensi Desa</h1>
               <p class="mb-0">
-                Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
-                odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum
-                debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat
-                ipsum dolorem.
+                Potensi Desa Bungi permai adalah Rumput laut yang merupakan komoditi andalan sebagian besar masyarakat. Desa di kecamatan Tinanggea  ini merupakan salah satu sentra produksi rumput laut yang terus berkembang.
               </p>
             </div>
           </div>
@@ -108,7 +86,7 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li class="current">Potensi Desa</li>
           </ol>
         </div>
       </nav>
@@ -296,5 +274,6 @@
   <script src="assets/js/main.js"></script>
 
 </body>
+
 
 </html>
