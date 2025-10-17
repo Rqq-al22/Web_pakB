@@ -97,11 +97,11 @@
         </div>
 
         <div class="carousel-item active">
-          <img src="assets/img/slider/slider-14.webp" alt="">
+          <img src="assets/img/slider/1.jpg" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="assets/img/slider/slider-5.webp" alt="">
+          <img src="assets/img/slider/3.jpg" alt="">
         </div>
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -117,7 +117,7 @@
     </section><!-- /Hero Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services" class="services section light-background">
 
       <!-- Section Title -->
       <div class="container section-title">
@@ -160,7 +160,7 @@
                 <div class="swiper-slide">
                   <div class="service-card geografis-section">
                     <div class="icon-box">
-                      <i class="bi bi-bar-chart-fill"></i>
+                      <i class="bi bi-geo-alt-fill"></i>
                     </div>
                     <a href="service-details1.php" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                     <div class="content">
@@ -178,7 +178,7 @@
                 <div class="swiper-slide">
                   <div class="service-card">
                     <div class="icon-box">
-                      <i class="bi bi-graph-up-arrow"></i>
+                      <i class="bi bi-people-fill"></i>
                     </div>
                     <a href="service-details2.php" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                     <div class="content">
@@ -214,7 +214,7 @@
                 <div class="swiper-slide">
                   <div class="service-card">
                     <div class="icon-box">
-                      <i class="bi bi-graph-up-arrow"></i>
+                      <i class="bi bi-cash-stack"></i>
                     </div>
                     <a href="service-details4.php" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                     <div class="content">
@@ -232,7 +232,7 @@
                 <div class="swiper-slide">
                   <div class="service-card">
                     <div class="icon-box">
-                      <i class="bi bi-graph-up-arrow"></i>
+                      <i class="bi bi-truck"></i>
                     </div>
                     <a href="service-details5.php" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                     <div class="content">
@@ -250,7 +250,7 @@
                 <div class="swiper-slide">
                   <div class="service-card">
                     <div class="icon-box">
-                      <i class="bi bi-graph-up-arrow"></i>
+                      <i class="bi bi-house-door-fill"></i>
                     </div>
                     <a href="service-details6.php" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                     <div class="content">
@@ -289,7 +289,7 @@
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -436,12 +436,12 @@
     </section><!-- /Portfolio Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section light-background">
+    <section id="team" class="team section">
 
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -460,7 +460,7 @@
               </div>
               <div class="content">
                 <h4>Miqdad Asyraf Rizqullah</h4>
-                <span class="position">E1E124041</span>
+                <span class="position">KETUA KELOMPOK</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
@@ -469,10 +469,10 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="src/alya.jpeg" alt="Team Member" class="img-fluid">
+                <img src="assets/img/person/person-f-12.webp" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/chaezkl__/"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/miqdad-asyraf-rizqullah/"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/Rqq-al22"><i class="bi bi-github"></i></a>
                 </div>
               </div>
@@ -508,13 +508,13 @@
                 <img src="src/faiz.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/fauzilll._/"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/laode-muhammad-fauzilazhim-53502738b/"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/FauzilAZH"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
                 <h4>Laode Muh. Fauzil Azhim</h4>
-                <span class="position">E1E124065</span>
+                <span class="position">ANGGOTA KELOMPOK</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
@@ -553,7 +553,7 @@
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -656,7 +656,7 @@
 
         <div class="col-lg-4">
           <div class="footer-content">
-            <a href="index.html" class="logo d-flex align-items-center mb-4">
+            <a href="index.php" class="logo d-flex align-items-center mb-4">
               <span class="sitename">Strive</span>
             </a>
             <p class="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.</p>
