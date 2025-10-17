@@ -505,11 +505,11 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="assets/img/person/person-f-7.webp" alt="Team Member" class="img-fluid">
+                <img src="src/faiz.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/fauzilll._/"><i class="bi bi-instagram"></i></a>
                   <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-github"></i></a>
+                  <a href="https://github.com/FauzilAZH"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
