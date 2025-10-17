@@ -158,7 +158,7 @@
   <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <div class="service-card">
+                  <div class="service-card geografis-section">
                     <div class="icon-box">
                       <i class="bi bi-bar-chart-fill"></i>
                     </div>
@@ -297,28 +297,28 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-strategy">Strategy</li>
-            <li data-filter=".filter-finance">Finance</li>
-            <li data-filter=".filter-operations">Operations</li>
-            <li data-filter=".filter-technology">Technology</li>
+            <li data-filter=".filter-strategy">Geografis</li>
+            <li data-filter=".filter-finance">Kegiatan</li>
+            <li data-filter=".filter-operations">Rumput Laut</li>
+            <li data-filter=".filter-technology">Kolase</li>
           </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4 isotope-container align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-1.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="src/2.jpg" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="src/2.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Business Growth Strategy</h4>
-                  <p>Strategic Planning</p>
+                  <h4>DESA BUNGI</h4>
+                  <p>Geografis desa bungi</p>
                   <div class="portfolio-tags">
-                    <span>Strategy</span>
-                    <span>Consulting</span>
+                    <span>Strategis</span>
+                    <span>Desa</span>
                   </div>
                 </div>
               </div>
@@ -327,18 +327,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-2.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="src/portfolio/5.jpg" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="src/portfolio/5.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Financial Restructuring</h4>
-                  <p>Financial Advisory</p>
+                  <h4>KEGIATAN DESA BUNGI</h4>
+                  <p>Kegiatan mengambil rumput laut</p>
                   <div class="portfolio-tags">
-                    <span>Finance</span>
-                    <span>Investment</span>
+                    <span>Kegiatan</span>
+                    <span>Desa Bungi</span>
                   </div>
                 </div>
               </div>
@@ -347,18 +347,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-operations">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="src/portfolio/7.jpg" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="src/portfolio/7.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Supply Chain Optimization</h4>
-                  <p>Operations Management</p>
+                  <h4>PRODUK RUMPUT LAUT</h4>
+                  <p>Rumput Laut desa bungi</p>
                   <div class="portfolio-tags">
-                    <span>Operations</span>
-                    <span>Logistics</span>
+                    <span>Produk</span>
+                    <span>Desa Bungi</span>
                   </div>
                 </div>
               </div>
@@ -367,18 +367,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="src/portfolio/2_1.jpg" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="src/portfolio/2_1.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Digital Transformation</h4>
-                  <p>Technology Consulting</p>
+                  <h4>KOLASE DESA BUNGI</h4>
+                  <p>Kolase foto</p>
                   <div class="portfolio-tags">
-                    <span>Technology</span>
-                    <span>Innovation</span>
+                    <span>Kolase</span>
+                    <span>Desa Bungi</span>
                   </div>
                 </div>
               </div>
@@ -387,18 +387,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="src/1.jpg" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="src/1.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Market Expansion</h4>
-                  <p>Strategic Planning</p>
+                  <h4>DESA BUNGI</h4>
+                  <p>View desa bungi dari laut</p>
                   <div class="portfolio-tags">
                     <span>Strategy</span>
-                    <span>Growth</span>
+                    <span>Desa</span>
                   </div>
                 </div>
               </div>
@@ -407,18 +407,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-6.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="src/portfolio/11.jpg" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="src/portfolio/11.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Investment Strategy</h4>
-                  <p>Financial Advisory</p>
+                  <h4>KEGIATAN DESA BUNGI</h4>
+                  <p>Kegiatan pelatihan pembuatan nuget rumput laut</p>
                   <div class="portfolio-tags">
-                    <span>Finance</span>
-                    <span>Investment</span>
+                    <span>Kegiatan</span>
+                    <span>Desa Bungi</span>
                   </div>
                 </div>
               </div>
@@ -451,17 +451,17 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="assets/img/person/person-m-8.webp" alt="Team Member" class="img-fluid">
+                <img src="src/Miqdad.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-github"></i></a>
+                  <a href="https://www.instagram.com/miqdadasyraf_r/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/miqdad-asyraf-rizqullah/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/MiqdadAsyrafRizqullah"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
-                <h4>Marcus Rodriguez</h4>
-                <span class="position">Chief Technology Officer</span>
-                <p>Passionate about building scalable solutions and leading innovative development teams to create exceptional user experiences.</p>
+                <h4>Miqdad Asyraf Rizqullah</h4>
+                <span class="position">KETUA KELOMPOK</span>
+                <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -471,15 +471,15 @@
               <div class="image-wrapper">
                 <img src="assets/img/person/person-f-12.webp" alt="Team Member" class="img-fluid">
                 <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.instagram.com/chaezkl__/"><i class="bi bi-instagram"></i></a>
                   <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-dribbble"></i></a>
+                  <a href="https://github.com/Rqq-al22"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
-                <h4>Sarah Chen</h4>
-                <span class="position">Head of Product Design</span>
-                <p>Creative visionary who transforms complex problems into intuitive design solutions that users love and businesses thrive with.</p>
+                <h4>Rezki Alya Pasrun</h4>
+                <span class="position">ANGGOTA KELOMPOK</span>
+                <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -487,17 +487,17 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="assets/img/person/person-m-3.webp" alt="Team Member" class="img-fluid">
+                <img src="src/cinta.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.instagram.com/cinta_wardana/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/cinta-wardana"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/C1nt4833"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
-                <h4>David Kumar</h4>
-                <span class="position">VP of Marketing</span>
-                <p>Growth strategist with expertise in digital marketing campaigns that drive user acquisition and brand recognition worldwide.</p>
+                <h4>Cinta Wardana</h4>
+                <span class="position">ANGGOTA KELOMPOK</span>
+                <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -507,15 +507,15 @@
               <div class="image-wrapper">
                 <img src="assets/img/person/person-f-7.webp" alt="Team Member" class="img-fluid">
                 <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.instagram.com/fauzilll._/"><i class="bi bi-instagram"></i></a>
                   <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-envelope"></i></a>
+                  <a href="#"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
-                <h4>Emma Thompson</h4>
-                <span class="position">Customer Success Lead</span>
-                <p>Dedicated to ensuring every customer achieves their goals through personalized support and strategic guidance.</p>
+                <h4>Laode Muh. Fauzil Azhim</h4>
+                <span class="position">ANGGOTA KELOMPOK</span>
+                <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -527,71 +527,17 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="assets/img/person/person-m-11.webp" alt="Team Member" class="img-fluid">
+                <img src="src/dwi.png" alt="Team Member" class="img-fluid">
                 <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.instagram.com/nabil.dwiii/"><i class="bi bi-instagram"></i></a>
                   <a href="#"><i class="bi bi-linkedin"></i></a>
                   <a href="#"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
-                <h4>Alex Johnson</h4>
-                <span class="position">Senior Full-Stack Developer</span>
-                <p>Code architect who builds robust applications using cutting-edge technologies to deliver seamless digital experiences.</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-f-4.webp" alt="Team Member" class="img-fluid">
-                <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-dribbble"></i></a>
-                </div>
-              </div>
-              <div class="content">
-                <h4>Lisa Park</h4>
-                <span class="position">UX Research Manager</span>
-                <p>User advocate who conducts deep research to understand customer needs and drive data-informed design decisions.</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-m-14.webp" alt="Team Member" class="img-fluid">
-                <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-slack"></i></a>
-                </div>
-              </div>
-              <div class="content">
-                <h4>Ryan Mitchell</h4>
-                <span class="position">DevOps Engineer</span>
-                <p>Infrastructure specialist focused on automation, scalability, and maintaining high-performance systems that never sleep.</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="team-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-f-9.webp" alt="Team Member" class="img-fluid">
-                <div class="social-links">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                </div>
-              </div>
-              <div class="content">
-                <h4>Jessica Williams</h4>
-                <span class="position">Data Analytics Lead</span>
-                <p>Numbers storyteller who transforms complex data into actionable insights that drive strategic business decisions.</p>
+                <h4>Nabil Dwi Saputra</h4>
+                <span class="position">TARUNA STMKG 2025</span>
+                <p>Pindah ke STMKG sebagai taruna STMKG angkatan 2025</p>
               </div>
             </div>
           </div><!-- End Team Member -->
