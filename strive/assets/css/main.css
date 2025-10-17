@@ -4771,3 +4771,332 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INI BAGIAN PORTOFOLIO WAJIB ADA*/
+
+/* Pastikan semua card punya tinggi sama */
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Pastikan gambar proporsional dan tidak berubah ukuran antar card */
+.portfolio-img {
+  width: 100%;
+  height: 220px; /* atur tinggi sesuai selera */
+  overflow: hidden;
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Supaya teks tidak membuat tinggi card berbeda */
+.portfolio-info {
+  flex-grow: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Jaga jarak antar elemen di dalam info */
+.portfolio-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.portfolio-info p {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Tag agar rapi */
+.portfolio-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.portfolio-tags span {
+  background: #e9f5ee;
+  color: #28a745;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Penyesuaian posisi tengah total untuk halaman Geografis dan Lahan === */
+#service-details {
+  background-color: #b3d9ff;
+  width: 100%;
+  padding: 60px 0;
+}
+
+#service-details .service-main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* ini yang bikin semua konten ke tengah */
+  justify-content: center;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#service-details .service-image img {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 80%;
+  border-radius: 15px;
+}
+
+#service-details .service-description {
+  width: 100%;
+  text-align: center;
+}
+
+#service-details .service-description h4 {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#service-details .service-description p {
+  color: #111;
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: justify;
+}
+
+/* Tengahin tabel dan kasih tampilan rapi */
+#service-details table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#service-details table th,
+#service-details table td {
+  border: 1px solid #333;
+  padding: 8px 15px;
+  color: #000;
+  background-color: #fff;
+  text-align: center; /* biar isi tabel juga di tengah */
+}
+
+
+
+
+/* === Posisi Tengah Total untuk Halaman Geografis dan Lahan === */
+#service-details {
+  background-color: #b3d9ff !important; /* biru lembut full */
+  width: 100% !important;
+  padding: 60px 0 !important;
+}
+
+#service-details .container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;   /* semua isi di tengah horizontal */
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+#service-details .service-main-content {
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+#service-details .service-image img {
+  display: block !important;
+  margin: 0 auto 30px auto !important;
+  max-width: 80% !important;
+  border-radius: 15px !important;
+}
+
+#service-details .service-description {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#service-details .service-description h4 {
+  color: #000 !important;
+  font-weight: 700 !important;
+  margin-bottom: 15px !important;
+  text-align: center !important;
+}
+
+#service-details .service-description p {
+  color: #111 !important;
+  font-size: 17px !important;
+  line-height: 1.8 !important;
+  max-width: 800px !important;
+  margin: 0 auto 20px auto !important;
+  text-align: justify !important;
+}
+
+/* === Tabel di tengah === */
+#service-details table {
+  margin: 20px auto !important;
+  border-collapse: collapse !important;
+}
+
+#service-details table th,
+#service-details table td {
+  border: 1px solid #333 !important;
+  padding: 8px 15px !important;
+  text-align: center !important;
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+/* === Koreksi posisi agar benar-benar center di layar === */
+#service-details .container,
+#service-details .service-main-content {
+  position: relative !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+#service-details .service-image img,
+#service-details .service-description,
+#service-details .service-description h4,
+#service-details .service-description p,
+#service-details table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+
+
+
+
+/* === Penyesuaian Akhir Geografis dan Lahan === */
+#service-details {
+  background-color: #b3d9ff !important;
+  width: 100vw !important; /* full lebar viewport */
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important; /* trik agar full background tetap di tengah */
+  margin-right: -50vw !important;
+  padding: 60px 0 !important;
+}
+
+/* Ratakan isi ke tengah layar */
+#service-details .container,
+#service-details .service-main-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/* Gambar di tengah, sedikit geser ke kanan */
+#service-details .service-image img {
+  display: block !important;
+  margin: 0 auto 30px auto !important;
+  transform: translateX(10%) !important;
+  /*geser2%kekanan*/max-width: 80% !important;
+  border-radius: 15px !important;
+  -webkit-transform: translateX(10%) !important;
+  -moz-transform: translateX(10%) !important;
+  -ms-transform: translateX(10%) !important;
+  -o-transform: translateX(10%) !important;
+}
+
+/* Deskripsi lebih lebar dari ujung ke ujung */
+#service-details .service-description {
+  width: 100% !important;
+  max-width: none !important;
+  text-align: justify !important;
+  padding: 0 4vw !important; /* beri jarak 4% dari tepi kiri-kanan agar tidak mentok */
+}
+
+/* Judul di tengah */
+#service-details .service-description h4 {
+  color: #000 !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+  text-align: center !important;
+}
+
+/* Paragraf full lebar */
+#service-details .service-description p {
+  color: #111 !important;
+  font-size: 17px !important;
+  line-height: 1.8 !important;
+  width: 100% !important;
+  text-align: justify !important;
+  margin: 0 auto 20px auto !important;
+}
+
+/* Tabel tepat di tengah */
+#service-details table {
+  margin: 20px auto !important;
+  border-collapse: collapse !important;
+  width: 95% !important;
+}
+
+#service-details table th,
+#service-details table td {
+  border: 1px solid #333 !important;
+  padding: 8px 15px !important;
+  text-align: center !important;
+  color: #000 !important;
+  background-color: #fff !important;
+}
