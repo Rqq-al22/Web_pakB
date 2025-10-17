@@ -52,11 +52,11 @@
 
      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#services">Profil</a></li>
-          <li><a href="#portfolio">Portofolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Kontak</a></li>
+           <li><a href="index.php" class="active">Home</a></li>
+          <li><a href="index.php#services">Profil</a></li>
+          <li><a href="index.php#portfolio">Portofolio</a></li>
+          <li><a href="index.php#team">Team</a></li>
+          <li><a href="index.php#contact">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -85,7 +85,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="current">Investasi Rumput Laut</li>
           </ol>
         </div>
@@ -102,7 +102,7 @@
           <div class="col-lg-8">
             <div class="service-main-content">
               <div class="service-image" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/services/services-5.webp" alt="Service Image" class="img-fluid rounded-4">
+                <img src="assets/img/services/7.jpg" alt="Service Image" class="img-fluid rounded-4">
               </div>
 
               <div class="service-description" data-aos="fade-up" data-aos-delay="300">
