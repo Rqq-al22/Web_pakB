@@ -460,7 +460,7 @@
               </div>
               <div class="content">
                 <h4>Miqdad Asyraf Rizqullah</h4>
-                <span class="position">KETUA KELOMPOK</span>
+                <span class="position">E1E124041</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
@@ -469,10 +469,10 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="assets/img/person/person-f-12.webp" alt="Team Member" class="img-fluid">
+                <img src="src/alya.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/chaezkl__/"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/miqdad-asyraf-rizqullah/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/Rqq-al22"><i class="bi bi-github"></i></a>
                 </div>
               </div>
@@ -508,13 +508,13 @@
                 <img src="src/faiz.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/fauzilll._/"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/laode-muhammad-fauzilazhim-53502738b/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/FauzilAZH"><i class="bi bi-github"></i></a>
                 </div>
               </div>
               <div class="content">
                 <h4>Laode Muh. Fauzil Azhim</h4>
-                <span class="position">ANGGOTA KELOMPOK</span>
+                <span class="position">E1E124065</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
