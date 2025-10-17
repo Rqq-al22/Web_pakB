@@ -52,11 +52,11 @@
 
      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#services">Profil</a></li>
-          <li><a href="#portfolio">Portofolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Kontak</a></li>
+          <li><a href="index.php" class="active">Home</a></li>
+          <li><a href="index.php#services">Profil</a></li>
+          <li><a href="index.php#portfolio">Portofolio</a></li>
+          <li><a href="index.php#team">Team</a></li>
+          <li><a href="index.php#contact">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -85,7 +85,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="current">Pemasaran Hasil Rumput Laut</li>
           </ol>
         </div>
@@ -93,38 +93,30 @@
     </div><!-- End Page Title -->
 
     <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+<section id="service-details" class="service-details section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-5">
+      <div class="col-lg-8">
+        <div class="service-main-content">
+          <div class="service-image" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services/2.jpg" alt="Service Image" class="img-fluid rounded-4">
+          </div>
 
-        <div class="row gy-5">
-
-          <div class="col-lg-8">
-            <div class="service-main-content">
-              <div class="service-image" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/services/services-5.webp" alt="Service Image" class="img-fluid rounded-4">
-              </div>
-
-              <div class="service-description" data-aos="fade-up" data-aos-delay="300">
-                        <?php
-                        $data = mysqli_query($con,"SELECT * FROM uraian where id_uraian=5");
-                         $row=mysqli_fetch_row($data);
-                        ?>
-                        <h4><?php echo $row[1]?></h4>
-                        <p><?php echo $row[3]?></p>
-               
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End Features -->
-                </div>
-
-        
+          <div class="service-description" data-aos="fade-up" data-aos-delay="300">
+            <?php
+              $data = mysqli_query($con,"SELECT * FROM uraian WHERE id_uraian=5");
+              $row = mysqli_fetch_row($data);
+            ?>
+            <h4><?php echo $row[1]; ?></h4>
+            <p><?php echo $row[3]; ?></p>
+          </div>
         </div>
-
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Service Details Section -->
+</section><!-- /Service Details Section -->
 
   </main>
 
