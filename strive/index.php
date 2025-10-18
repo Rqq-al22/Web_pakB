@@ -97,11 +97,11 @@
         </div>
 
         <div class="carousel-item active">
-          <img src="assets/img/slider/1.jpg" alt="">
+          <img src="src/7.jpg" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="assets/img/slider/3.jpg" alt="">
+          <img src="src/6_1.jpg" alt="">
         </div>
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -559,7 +559,15 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="contact-main-wrapper">
           <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15861.580433248538!2d122.215733!3d-4.4876564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da28e7d341e3a73%3A0x50d83de823bbd2b6!2sBungin%20Permai%2C%20Kec.%20Tinanggea%2C%20Kabupaten%20Konawe%20Selatan%2C%20Sulawesi%20Tenggara!5e0!3m2!1sid!2sid!4v1739857051000!5m2!1sid!2sid"
+  width="100%" 
+  height="100%" 
+  style="border:0; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
           </div>
 
           <div class="contact-content">
@@ -570,7 +578,10 @@
                 </div>
                 <div class="contact-text">
                   <h4>Location</h4>
-                  <p>8721 Broadway Avenue, New York, NY 10023</p>
+                  <p>ungin Permai <br>
+Kec. Tinanggea
+Kabupaten Konawe Selatan
+Sulawesi Tenggara</p>
                 </div>
               </div>
 
@@ -580,7 +591,7 @@
                 </div>
                 <div class="contact-text">
                   <h4>Email</h4>
-                  <p>info@examplecompany.com</p>
+                  <p>BunginPermai12@gmail.com</p>
                 </div>
               </div>
 
@@ -590,58 +601,60 @@
                 </div>
                 <div class="contact-text">
                   <h4>Call</h4>
-                  <p>+1 (212) 555-7890</p>
+                  <p>+62812-3456-7890</p>
                 </div>
               </div>
 
               <div class="contact-card">
                 <div class="icon-box">
-                  <i class="bi bi-clock"></i>
+                  <i class="bi bi-phone"></i>
                 </div>
                 <div class="contact-text">
-                  <h4>Open Hours</h4>
-                  <p>Monday-Friday: 9AM - 6PM</p>
+                  <h4>Media Sosial</h4>
+                  <p><div class="social-links">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div></p>
                 </div>
               </div>
             </div>
 
             <div class="contact-form-container" data-aos="fade-up" data-aos-delay="400">
-              <h3>Get in Touch</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</p>
+  <h3>Data Kontak</h3>
+  <p>Silakan isi data di bawah ini untuk mengirimkan pesan atau saran Anda.</p>
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-                </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
-                </div>
+  <form action="kirim_pesan.php" method="POST">
+    <div class="row">
+      <div class="col-md-6 form-group">
+        <input type="text" name="nama" class="form-control" placeholder="Nama" required>
+      </div>
+      <div class="col-md-6 form-group mt-3 mt-md-0">
+        <input type="text" name="alamat" class="form-control" placeholder="Alamat" required>
+      </div>
+    </div>
 
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+    <div class="row mt-3">
+      <div class="col-md-6 form-group">
+        <input type="email" name="email" class="form-control" placeholder="Email" required>
+      </div>
+      <div class="col-md-6 form-group mt-3 mt-md-0">
+        <input type="text" name="organisasi" class="form-control" placeholder="Organisasi/Perusahaan" required>
+      </div>
+    </div>
 
-                <div class="form-submit">
-                  <button type="submit">Send Message</button>
-                  <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </form>
-            </div>
+    <div class="form-group mt-3">
+      <textarea name="pesan" class="form-control" rows="5" placeholder="Komentar/Pesan/Saran" required></textarea>
+    </div>
+
+    <div class="text-center mt-4">
+      <button type="submit" class="btn btn-success">SEND MESSAGE</button>
+      <button type="reset" class="btn btn-secondary">CANCEL</button>
+    </div>
+  </form>
+</div>
+            
           </div>
         </div>
       </div>
