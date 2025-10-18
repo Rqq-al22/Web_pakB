@@ -460,7 +460,7 @@
               </div>
               <div class="content">
                 <h4>Miqdad Asyraf Rizqullah</h4>
-                <span class="position">KETUA KELOMPOK</span>
+                <span class="position">E1E124041</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
@@ -478,7 +478,7 @@
               </div>
               <div class="content">
                 <h4>Rezki Alya Pasrun</h4>
-                <span class="position">ANGGOTA KELOMPOK</span>
+                <span class="position">E1E124015</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
@@ -496,7 +496,7 @@
               </div>
               <div class="content">
                 <h4>Cinta Wardana</h4>
-                <span class="position">ANGGOTA KELOMPOK</span>
+                <span class="position">E1E124059</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
@@ -514,7 +514,7 @@
               </div>
               <div class="content">
                 <h4>Laode Muh. Fauzil Azhim</h4>
-                <span class="position">ANGGOTA KELOMPOK</span>
+                <span class="position">E1E124065</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
             </div>
