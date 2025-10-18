@@ -1,8 +1,15 @@
-<?php
-//dari lokasi login
-require_once __DIR__ . '/../auth.php';
-require_login();
+<?php 
+  include("../config.php");
 ?>
+<!-- header.php -->
+<link rel="stylesheet" href="../css/azia.css">
+<style>
+.az-content-left .nav-link.active,
+.az-content-left .nav-link:hover {
+  color: #47db82ff !important;
+  font-weight: 600;
+}
+</style>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,7 +50,7 @@ require_login();
     <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
     <meta name="author" content="BootstrapDash">
 
-    <title>Azia Responsive Bootstrap 4 Dashboard Template</title>
+    <title>Data Desa Bungi </title>
 
     <!-- vendor css -->
     <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -60,19 +67,23 @@ require_login();
     <div class="az-header">
       <div class="container">
         <div class="az-header-left">
-          <a href="index.html" class="az-logo"><span></span> azia</a>
+          <a href="index.php" class="az-logo"><span></span> azia</a>
           <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
         </div><!-- az-header-left -->
         <div class="az-header-menu">
           <div class="az-header-menu-header">
-            <a href="index.html" class="az-logo"><span></span> azia</a>
+            <a href="index.php" class="az-logo"><span></span> azia</a>
             <a href="" class="close">&times;</a>
           </div><!-- az-header-menu-header -->
           <ul class="nav">
             <li class="nav-item active show">
-              <a href="index.html" class="nav-link"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
+              <a href="index.php" class="nav-link"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
             </li>
             <li class="nav-item">
+              <a href="" class="nav-link with-sub"><i class="typcn typcn-document"></i> Pages</a>
+              <nav class="az-menu-sub">
+                <a href="page-signin.html" class="nav-link">Sign In</a>
+                <a href="page-signup.html" class="nav-link">Sign Up</a>
               </nav>
             </li>
             <li class="nav-item">
@@ -86,10 +97,11 @@ require_login();
               <div class="az-menu-sub">
                 <div class="container">
                   <div>
+ <!-- Dashboard -->
                     <nav class="nav">
-                      <a href="elem-buttons.html" class="nav-link">Buttons</a>
-                      <a href="elem-dropdown.html" class="nav-link">Dropdown</a>
-                      <a href="elem-icons.html" class="nav-link">Icons</a>
+                      <a href="elem-buttons.php" class="nav-link">Admin</a> <!-- ubah ke php -->
+                      <a href="elem-dropdown.php" class="nav-link">Petani</a>
+                      <a href="elem-icons.php" class="nav-link">Tamu</a>
                       <a href="table-basic.html" class="nav-link">Table</a>
                     </nav>
                   </div>
@@ -175,8 +187,8 @@ require_login();
         <div class="az-content-body">
           <div class="az-dashboard-one-title">
             <div>
-              <h2 class="az-dashboard-title">Halo, selamat datang!</h2>
-              <p class="az-dashboard-text">Dashboard admin.</p>
+              <h2 class="az-dashboard-title">Halo, selamat datang!!!</h2>
+              <p class="az-dashboard-text">Data mengenai Data Desa Bungi Ada di Sini ^^</p>
             </div>
             <div class="az-content-header-right">
               <div class="media">
@@ -188,7 +200,7 @@ require_login();
               <div class="media">
                 <div class="media-body">
                   <label>End Date</label>
-                  <h6>Oct 23, 2018</h6>
+                  <h6>Oct 21, 2025</h6>
                 </div><!-- media-body -->
               </div><!-- media -->
               <div class="media">
@@ -222,7 +234,7 @@ require_login();
               <div class="card card-dashboard-one">
                 <div class="card-header">
                   <div>
-                    <h6 class="card-title">Data Petani Desa Bungi</h6>
+                    <h6 class="card-title">Website Audience Metrics</h6>
                     <p class="card-text">Audience to which the users belonged while on the current date range.</p>
                   </div>
                   <div class="btn-group">
@@ -311,7 +323,7 @@ require_login();
                   <div class="az-list-item">
                     <div>
                       <h6>Admin Home</h6>
-                      <span>/demo/admin/index.html</span>
+                      <span>/demo/admin/index.php</span>
                     </div>
                     <div>
                       <h6 class="tx-primary">7,755</h6>
@@ -486,7 +498,7 @@ require_login();
             </div><!-- col-lg-3 -->
             <div class="col-lg-7 col-xl-8 mg-t-20 mg-lg-t-0">
               <div class="card card-table-one">
-                <h6 class="card-title">What pages do your users visit</h6>
+                <h6 class="card-title">Darimana Saja tamu berasal</h6>
                 <p class="az-content-text mg-b-20">Part of this date range occurs before the new users metric had been calculated, so the old users metric is displayed.</p>
                 <div class="table-responsive">
                   <table class="table">
@@ -733,7 +745,7 @@ require_login();
           }
         });
 
-        // Donut Chart
+        // Diagram donat
         var datapie = {
           labels: ['Search', 'Email', 'Referral', 'Social', 'Other'],
           datasets: [{
@@ -754,7 +766,7 @@ require_login();
           }
         };
 
-        // For a doughnut chart
+        // Diagram donat
         var ctxpie= document.getElementById('chartDonut');
         var myPieChart6 = new Chart(ctxpie, {
           type: 'doughnut',
