@@ -552,7 +552,7 @@
     <section id="contact" class="contact section light-background">
       <!-- Section Title -->
       <div class="container section-title">
-        <h2>Contact</h2>
+        <h2>Kontak</h2>
         <p></p>
       </div><!-- End Section Title -->
 
