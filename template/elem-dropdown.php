@@ -241,7 +241,7 @@
           <td>{$row['organisasi']}</td>
           <td>{$row['pesan']}</td>
           <td>
-            <a href='edit.php?id={$row['id_tamu']}'>
+            <a href='edit3.php?id={$row['id_tamu']}'>
               <img src='../img/edit.png' alt='Edit' width='20'>
             </a>
             <a href='delete2.php?id={$row['id_tamu']}' onclick=\"return confirm('Yakin ingin menghapus data ini?')\">
