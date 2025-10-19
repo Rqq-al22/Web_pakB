@@ -74,9 +74,9 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1 class="heading-title">Pertumbuhan Penduduk</h1>
+              <h1 class="heading-title">Wilayah Kecamatan</h1>
               <p class="mb-0">
-               Pertumbuhan Penduduk
+               Letak kawasan Kecamatan Tinanggea memiliki batas-batas wilayah yaitu: Kabupaten Bombana, Kec. Andoolo, Kec. Andoolo Barat, Kec. Lalembuu,  Kec. Tinanggea dan Selat Tiworo
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@
         <div class="container">
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li class="current">Pertumbuhan Penduduk</li>
+            <li class="current">Wilayah Kecamatan</li>
           </ol>
         </div>
       </nav>
