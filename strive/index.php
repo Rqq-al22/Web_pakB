@@ -508,7 +508,7 @@
                 <img src="src/faiz.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/fauzilll._/"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/laode-muhammad-fauzilazhim-53502738b/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/FauzilAZH"><i class="bi bi-github"></i></a>
                 </div>
               </div>
