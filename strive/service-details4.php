@@ -102,7 +102,7 @@
           <div class="col-lg-8">
             <div class="service-main-content">
               <div class="service-image" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/services/7.jpg" alt="Service Image" class="img-fluid rounded-4">
+                <img src="src/investasi.jpg" alt="Service Image" class="img-fluid rounded-4">
               </div>
 
               <div class="service-description" data-aos="fade-up" data-aos-delay="300">
@@ -277,4 +277,5 @@
 
 
 </html>
+
 
