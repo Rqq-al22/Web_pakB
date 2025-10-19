@@ -67,12 +67,12 @@
     <div class="az-header">
       <div class="container">
         <div class="az-header-left">
-          <a href="index.php" class="az-logo"><span></span> azia</a>
+          <a href="../strive/index.php" class="az-logo"><span></span> azia</a>
           <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
         </div><!-- az-header-left -->
         <div class="az-header-menu">
           <div class="az-header-menu-header">
-            <a href="index.php" class="az-logo"><span></span> azia</a>
+            <a href="../strive/index.php" class="az-logo"><span></span> azia</a>
             <a href="" class="close">&times;</a>
           </div><!-- az-header-menu-header -->
           <ul class="nav">
