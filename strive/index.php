@@ -469,7 +469,7 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-card">
               <div class="image-wrapper">
-                <img src="assets/img/person/person-f-12.webp" alt="Team Member" class="img-fluid">
+                <img src="src/alya.jpeg" alt="Team Member" class="img-fluid">
                 <div class="social-links">
                   <a href="https://www.instagram.com/chaezkl__/"><i class="bi bi-instagram"></i></a>
                   <a href="#"><i class="bi bi-linkedin"></i></a>
