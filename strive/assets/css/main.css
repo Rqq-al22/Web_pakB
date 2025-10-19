@@ -5110,3 +5110,64 @@ section,
   color: #000 !important;
   background-color: #fff !important;
 }
+
+
+
+
+
+
+
+
+
+/* ==== Struktur dasar swiper agar semua slide sejajar ==== */
+.swiper-wrapper {
+  display: flex;
+  align-items: stretch; /* semua slide akan sejajar tinggi terbesar */
+}
+
+/* ==== Tiap slide menyesuaikan tinggi wrapper ==== */
+.swiper-slide {
+  display: flex;
+}
+
+/* ==== Kartu tetap fleksibel dan responsif ==== */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%; /* penting: mengikuti tinggi terbesar di baris */
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* ==== Agar isi dalam kartu juga rapi ==== */
+.service-card .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ==== Ikon di atas tidak mengganggu tata letak ==== */
+.service-card .icon-box {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* ==== Nomor di bawah selalu sejajar ==== */
+.service-number {
+  margin-top: auto;
+  font-weight: 600;
+  text-align: right;
+  color: #4caf50;
+}
+
+/* ==== Sedikit efek hover agar interaktif ==== */
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
