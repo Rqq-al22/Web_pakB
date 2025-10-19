@@ -265,6 +265,24 @@
                   </div>
                 </div>
 
+    <div class="swiper-slide">
+                  <div class="service-card">
+                    <div class="icon-box">
+                      <i class="bi bi-house-door-fill"></i>
+                    </div>
+                    <a href="service-details9.php" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                    <div class="content">
+                    <?php
+                        $data = mysqli_query($con,"SELECT * FROM uraian where id_uraian=9");
+                         $row=mysqli_fetch_row($data);
+                        ?>
+                        <h4><?php echo $row[1]?></h4>
+                        <p><?php echo $row[2]?></p>
+                      <div class="service-number">07</div>
+                    </div>
+                  </div>
+                </div>
+    
               </div>
             </div>
           </div>
@@ -459,7 +477,7 @@
                 </div>
               </div>
               <div class="content">
-                <h4>Miqdad Asyraf Rizqullah</h4>
+                <h4>Miqdad Asyraf R.</h4>
                 <span class="position">E1E124041</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
@@ -513,7 +531,7 @@
                 </div>
               </div>
               <div class="content">
-                <h4>Laode Muh. Fauzil Azhim</h4>
+                <h4>Laode Muh. Fauzil A.</h4>
                 <span class="position">E1E124065</span>
                 <p>Mahasiswa Teknik Informatika</p>
               </div>
